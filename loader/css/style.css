@@ -1,0 +1,12 @@
+#spinner {
+    position: fixed;
+    width: 100%
+}
+
+#spinner {
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/page-loader.gif) 50% 50% no-repeat #e0e0e0
+}
