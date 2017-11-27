@@ -1,0 +1,33 @@
+#mobile-search {
+    position: fixed;
+    width: 100%
+}
+#mobile-search {
+    bottom: 0;
+    z-index: 100;
+    height: 50px;
+    display: none
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+    #navigation .ui.inverted.menu .item .tablet.computer.only,
+    #navigation .ui.inverted.menu .item.tablet.computer.only {
+        display: none
+}
+#mobile-search {
+    display: block
+    }
+}
+.input-field labe,
+.input-field label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    font-size: 1rem;
+    cursor: text;
+    text-align: initial;
+    pointer-events: none
+}
+.lado{
+    padding-left: 1rem;
+}
